@@ -1,0 +1,144 @@
+
+header {
+overflow: hidden;
+background-color: #39474E;
+}
+.col-md-8.ironyard{
+  float: left;
+  background-color: #39474E;
+}
+
+.col-md-8.ironyard img{
+padding:25px 10px;
+
+}
+
+.col-md-8.ironyard a{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 16px;
+
+}
+
+.col-md-8.ironyard a:hover{
+  color: #828990;
+  text-decoration: underline#6FBBB7;
+}
+
+.col-md-4.links{
+  float: right;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.col-md-4.links a{
+  color: #828990;
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.col-md-4.links button{
+  background-color: #6FBBB7;
+  padding: 4px 20px;
+}
+
+.col-md-4.links h6{
+  color: white;
+  font-size: 15px;
+
+}
+
+
+.container-fluid.hero{
+background: url(../images/amy-home-web2.jpg)top center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 200px 80px;
+
+
+}
+
+.container-fluid.hero h1{
+  color: white;
+  font-size: 40px;
+}
+
+.container-fluid.hero h4{
+color: white;
+
+}
+
+.container-fluid.hero button{
+  background-color: #6FBBB7;
+  padding: 16px 50px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.container.logos{
+  background-color: #EEEEEE;
+  width: 100%;
+  padding: 15px 200px;
+}
+
+.row.logos img{
+  height: 75px;
+
+}
+.container.information{
+  padding: 30px;
+
+}
+
+.col-md-8 h3{
+  font-style: italic;
+  font-size: 28px;
+  font-weight:bolder;
+  color: #727D84;
+  line-height: 36px;
+  font-family: "ff-tisa-web-pro", serif;
+
+}
+
+.col-md-8 p{
+  color: #394769;
+  font-size: 16px;
+}
+
+.content.box{
+  background-color: #EBEBEB;
+  border-radius: 2px solid #EBEBEB;
+  margin-top: 25px;
+  padding: 30px;
+  width: 100%;
+}
+
+.content.box .p1{
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 0px;
+}
+
+.content.box button{
+  background-color: #6FBBB7;
+  margin-top: 20px;
+  padding: 5px 15px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+.content.box #first_name{
+  width: 48%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.content.box #last_name{
+  width: 48%;
+  float: right;
+  margin-bottom: 20px;
+}

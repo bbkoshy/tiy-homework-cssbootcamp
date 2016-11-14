@@ -12,37 +12,37 @@
   </head>
   <body>
     <header>
-        <div class="col-md-8">
+        <div class="col-md-8 ironyard">
             <a href="#"><img src="images/iron-yard-logo-709fbbf7ff0d1d76e83b9a782b79e7c4edb840974a7b3d9dd4f33b8cf5b87571.svg" alt="Iron Yard Logo" /></a>
             <a href="#">Campuses</a>
             <a href="#">Courses</a>
             <a href="#">Corporate Training</a>
         </div>
-        <div class="col-md-4">
+
+        <div class="col-md-4 links">
             <a href="#">About</a>
             <a href="#">Blog</a>
             <a href="#">Contact</a>
-            <button type="button" name="button"><a href="#">Get Started</a></button>
+            <button type="button" name="button"><h6 href="#">Get Started</h6></button>
         </div>
   </header>
   <div class="container-fluid hero">
-        <img src="images/amy-home-web2.jpg" alt="icon"/>
           <h1>Where will your job take you?</h1>
           <h4>Learn to code. Take charge of your career.</h4>
           <button type="button" name="button">Watch the video</button>
   </div>
-    <div class="container">
+    <div class="container logos">
       <div class="row logos">
             <img src="images/atlantic-logo-b40403c87f8359cdae967709274a0314f027bde4d1828b5b9d108f629f7c9136.png" alt="Atlantic logo" />
             <img src="images/fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png" alt="" />
-            <img src="images/fastco-logo-dedef64250a3da4831ba17c2e550eca65b89058fa05d2e6140c0b4d419ba0776.png" alt="" />
+            <img src="images/cnn-logo-e4f0d08240f5da5ac4bed616525722046439b9d28f8aba6da7ddffa284124058.png" alt="" />
             <img src="images/tc-logo-ad25dc171d85b6babec347cfa0a591455ed3400b607cd1a3c4b10647db7d9ee5.png" alt="" />
             <img src="images/abc-logo-70db8ec19f76f7a89ae050677c652b6bf718fe771ff4d671a4e3e5ee8ee321c0.png" alt="" />
             <img src="images/nbc-logo-1fd8d83d0a1949015c5a652e1eb578a1e3d060c39ab16ef1b739377897ee12e5.png" alt="" />
             <img src="images/wsj-logo-339b1b3d7ebf94fc53780dd68c31abdf95720a5617d91b587c5a3ba627068e87.png" alt="" />
       </div>
    </div>
-<div class="container 2">
+<div class="container information">
          <div class="col-md-8">
             <h3>12-week code school</h3>
               <p>Go from zero to job ready in an immersive environment. Learn the latest skills from industry professionals and connect with employers through our Career Support program.</p>
@@ -52,16 +52,19 @@
               <p>If you already lead or work on a developmental team, our recruiting, onboarding, reskilling and upskilling programs provide proven pathways to grow your team.</p>
          </div>
          <div class="col-md-4">
-           <form class="contact-form">
-             <p>Short on time?</p><br><p>Want a quick overview explaining what we're all about? We'll email you our 2016 fact sheet, complete with a snapshot of our locations, courses, job data, and more.</p>
-             <label for="name">Name:</label>
-             <input type="text"  id="name" name="user_name"/>
-             <label for="email"> Email:</label>
-             <input type="email" id="email" name="user_name"/>
-             <label for="message">Message:</label>
-             <textarea id="message" name="user_message"></textarea>
-             <button type="submit">Email me the fact sheet.</button>
-           </form>
+            <div class="content box">
+               <p class="p1">Short on time?</p><br><p class="p2">Want a quick overview explaining what we're all about? We'll email you our 2016 fact sheet, complete with a snapshot of our locations, courses, job data, and more.</p>
+               <form class="contact-form">
+               <input id="first_name" class="form-control half-width" aria-label="first_name" aria-requred="true" name="account[first_name]" placeholder="First Name" type="text">
+               <label for="last_name"></label>
+               <input id="last_name" class="form-control half-width right" aria-label="last name" aria-required="true" name="account[last_name]" placeholder="Last Name" type="text">
+               <label for="emailAddress"></label>
+               <input aria-label="emailaddress" aria-required="true" class="form-control" id="emailAddress" name="account[email]" placeholder="Email Address" type="text">
+               <label for="phoneNumber"></label>
+               <input aria-label="phonenumber" aria-required="false" class="form-control" id="phoneNumber" name="account[phone]" placeholder="Phone Number" type="text">
+               <button type="submit">Email me the fact sheet</button>
+             </form>
+             </div>
          </div>
 </div>
 <div class="container 3">
