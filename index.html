@@ -67,27 +67,27 @@
              </div>
          </div>
 </div>
-<div class="container 3">
+<div class="containerdiscover">
           <h3>Discover our courses</h3>
-          <h4>We offer learning programs that cover the core components of web development.Each course is designed to help people reach their learning and career goals. </h4>
-          <img src="images/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png" alt="" /><h5>Front-End Engineerng</h5>
-          <img src="images/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png" alt="" /><h5>Back-End Engineering</h5>
-          <img src="images/icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png" alt="" /><h5>Mobile Engineering</h5>
-          <img src="images/icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png" alt="" /><h5>Interface Design</h5>
+          <h4>We offer learning programs that cover the core components of web development. Each   course is designed to help people reach their learning and career goals. </h4>
+          <img src="images/icon-front-end-trim-40431980b5a2d0e731937ecece8b8958f4323899058d0332c4231eb09b18f580.png" alt="" />
+          <img src="images/icon-back-end-trim-471664040cbfdf27f6a4ee15a015914dda20e941ae0665f08b3bcf1a3e6b9191.png" alt="" />
+          <img src="images/icon-mobile-trim-72bd4daae60f7c31957fe0e6d5d7f9dbcde312f1d1de2733bc19111e7e5aef36.png" alt="" />
+          <img src="images/icon-design-trim-8f4d3695a10f0faf64a3766e2e33f7619b829ebca8f228e7925d78cf6ff94234.png" alt="" /><h5>Front-End Engineering</h5><h5>Back-End Engineering</h5><h5>Mobile Engineering</h5><h5>Interface Design</h5>
 </div>
 
-<div class="container 4">
-      <div class="col-md-6">
+<div class="container testimonials">
+      <div class="col-md-6 testimonials">
           <h3>What our students say</h3>
           <h2>"The Iron Yard gave me confidence and set me on a career path I'm proud of"</h2>
           <h4>-Jesse Crow, UI Developer at IBM Design</h4>
           <button type="studentstories" name="button">See our student stories</button>
        </div>
-       <div class="col-md-3">
-          <img src="images/jeremy-butler-thumb.jpg" alt="" /><h5>Jeremy Butler toured the world playing music, but returned to his first love of programming through The Iron Yard. He now develops apps for State Farm.</h5><h3>Jeremy Butler <br>iOS Developer</h3>
+       <div class="col-md-3 student">
+          <img src="images/jeremy-butler-thumb.jpg" alt="" /><h5>Jeremy Butler toured the world playing music, but returned to his first love of programming through The Iron Yard. He now develops apps for State Farm.</h5><h3>Jeremy Butler</h3> <br><h6>iOS Developer</h6>
        </div>
-       <div class="col-md-3">
-          <img src="images/logan-arnett-thumb.jpg" alt="" /><h5>Logan turned his hobby into a career when he left sales and marketing to learn software development. He's now a Front-End Developer in Orlando.</h5><h3>Logan Arnett <br>Front-End Developer</h3>
+       <div class="col-md-3 student">
+          <img src="images/logan-arnett-thumb.jpg" alt="" /><h5>Logan turned his hobby into a career when he left sales and marketing to learn software development. He's now a Front-End Developer in Orlando.</h5><h3>Logan Arnett</h3><br><h6>Front-End Developer</h6>
         </div>
 </div>
 <div class="container fluid gray">
@@ -148,7 +148,7 @@
           <img src="images/poetic-logo-2ec549b25e0641d8200a4f09b05d7e2e27378e93c15a0491edc32de7e90e37cc-1.png" alt="" />
         </div>
       </div>
-</div>
+    </div>
 <div class="container 6">
         <div class="col-md-4 penultimate">
                 <h4>questions?</h4>
@@ -156,26 +156,24 @@
                 <p>Whether you're thinking about starting a new career, interested in learning more about our programs for individuals or businesses, or just want to chat, we're here and we'd love to connect with you. Shoot us an email or your phone number and we'll get back to you soon, or you can chat with us right away using the chat icon below.</p>
           </div>
           <div class="col-md-4 forms">
-                <form class="call form">
-                <label for="First Name"></label>
-                <input type="Last Name" name="last name"/>
-                <label for="Your Phone Number"></label>
-                <input type="email" name="user_name"/>
-                <label for="message">Message:</label>
-                <textarea name="user_message"></textarea>
-                <button type="submit">Send</button>
-                </form>
+              <form class="contact-form">
+              <input id="firstname" class="form-control half-width" aria-label="first_name" aria-requred="true" name="account[first_name]" placeholder="First Name" type="text">
+              <label for="last_name"></label>
+              <input id="lastname" class="form-control half-width right" aria-label="last name" aria-required="true" name="account[last_name]" placeholder="Last Name" type="text">
+              <label for="phoneNumber"></label>
+              <input aria-label="phonenumber" aria-required="false" class="form-control" id="phonenumber" name="account[phone]" placeholder="Phone Number" type="text">
+              <button type="submit">Gimme a ring</button>
+            </form>
           </div>
           <div class="col-md-4 forms">
-                <form class="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" name="user_name"/>
-                <label for="email"> Email:</label>
-                <input type="email" name="user_name"/>
-                <label for="message"></label>
-                <textarea name="user_message"></textarea>
-                <button type="submit"></button>
-                </form>
+            <form class="contact-form">
+            <input id="first name" class="form-control half-width" aria-label="first_name" aria-requred="true" name="account[first_name]" placeholder="First Name" type="text">
+            <label for="last_name"></label>
+            <input id="last name" class="form-control half-width right" aria-label="last name" aria-required="true" name="account[last_name]" placeholder="Last Name" type="text">
+            <label for="email address"></label>
+            <input aria-label="email address" aria-required="false" class="form-control" id="email address" name="account[email]" placeholder="Your Email Address" type="text">
+            <button type="submit">Email me</button>
+          </form>
           </div>
 </div>
   </body>

@@ -142,3 +142,152 @@ color: white;
   float: right;
   margin-bottom: 20px;
 }
+
+.containerdiscover{
+  background-color: #EEEEEE;
+  padding: 20px 215px;
+  overflow: hidden;
+
+}
+
+.containerdiscover h3{
+  font-style: italic;
+  font-family: "ff-tisa-web-pro";
+  font-weight: bolder;
+  color: #838F95;
+  text-align: center;
+  padding: 0px 15px;
+  font-size: 33px;
+}
+
+
+.containerdiscover h4{
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+.containerdiscover img{
+margin-left: 130px;
+float: left;
+display: inline;
+
+}
+
+
+.containerdiscover h5{
+  margin-left: 85px;
+  float: left;
+  width: 16%;
+
+}
+
+.col-md-6.testimonials{
+  padding: 30px 50px;
+}
+.col-md-6.testimonials h3{
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-size: 20px;
+  color: #838F95;
+}
+
+.col-md-6.testimonials h2{
+  color: #838F95;
+  font-weight: bolder;
+  font-style: italic;
+  font-family: "ff-tisa-web-pro", serif;
+
+}
+
+.col-md-6.testimonials h4{
+  color: #838F95;
+  padding: 20px;
+
+}
+
+.col-md-6.testimonials button{
+  padding: 15px;
+  background-color: #6FBBB7;
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+
+}
+
+.col-md-3.student{
+  padding: 20px 50px;
+}
+.col-md-3.student img{
+  margin-top: 30px;
+  border-radius: 60px;
+  border: 3px solid orange;
+  height: 93px;
+  width: 94px;
+
+}
+
+.col-md-3.student h5{
+  color: #727D84;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.col-md-3.student h3{
+  color: #6FBBB7;
+  font-size: 19px;
+}
+
+.col-md-3.student h6{
+  color: #6F7C82;
+  font-size: 22px;
+}
+
+.container.fluid.gray{
+  background: url(../images/employers-image.jpg)top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.container.fluid.gray h3{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+
+}
+
+.container.fluid.gray h5{
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+}
+
+.row.logos{
+  display: block;
+  padding: 20px;
+
+}
+
+
+.col-md-4.forms{
+background-color: #EBEBEB;
+border-radius: 10px;
+border: 2px solid #EBEBEB;
+margin-top: 50px;
+margin-bottom: 5px;
+
+}
+
+.col-md-4.forms .contact-form{
+  padding: 35px;
+}
+
+.col-md-4.forms .contact-form button{
+  padding: 10px;
+  background-color: #6FBBB7;
+  color: white;
+  font-size: 12px;
+}
